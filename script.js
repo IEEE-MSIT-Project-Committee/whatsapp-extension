@@ -9,6 +9,7 @@ function goapp()
 {
   let nummer= document.getElementById("number").value ;
   nummer=nummer.toString();
+ 
   let code= document.getElementById("code").value ;
   code=code.toString();
 
