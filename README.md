@@ -1,5 +1,6 @@
 WhatsApp Extension
 <br>
+<br>
 A chrome extension to send WhatsApp messages without saving the phone numbers
 <br>
 <hr>
