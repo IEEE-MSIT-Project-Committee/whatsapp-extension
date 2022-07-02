@@ -8,18 +8,21 @@
 
 <body>
 
-<div class="header">
+
 <div class="main">
 <br>
-<h1>Send a WhatsApp direct without adding to your contact list</h1>
+<h3 style="text-align: center;">Send a WhatsApp direct without adding to your contact list</h3>
 
 <div class="formdiv">
 <form name="whatsapp" action="" >
-<input id="number" maxlength="22" autofocus type="tel" pattern="[0-9]*" novalidate name="phone_number" ><br>
-<button   class="button">message</button>
-</form>
-
+<div style="display: flex;">
+    <span style="margin-right:3%;font-weight:900;font-size:18px">+</span>
+    <input id="code" placeholder="Code" style="width: 30px;margin-right: 5%;" >
+    <input id="number" placeholder="Phone number" style="width: 100px;height:23px" maxlength="22" autofocus type="tel" pattern="[0-9]*" novalidate name="phone_number" >
 </div>
+<br>
+<button   class="button">MESSAGE</button>
+</form>
 </div>
 
 

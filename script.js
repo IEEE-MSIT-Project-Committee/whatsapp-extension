@@ -6,10 +6,10 @@ function goapp()
 {
   let nummer= document.getElementById("number").value ;
   nummer=nummer.toString();
-nummer = nummer.replace(/\D/g,'');
-nummer = nummer.replace(/^0+/, '');
+  let code= document.getElementById("code").value ;
+  code=code.toString();
 
-const link="https://api.whatsapp.com/send?phone="+nummer;
+const link="https://api.whatsapp.com/send?phone="+code+nummer;
 chrome.tabs.create({url:link});
 
 //  window.location = 'https://api.whatsapp.com/send?phone=' + nummer;
